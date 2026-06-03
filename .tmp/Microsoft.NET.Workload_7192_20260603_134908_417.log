@@ -1,0 +1,14 @@
+[2026-06-03 13:49:08.422] [00001C18] === Logging started ===
+[2026-06-03 13:49:08.430] [00001C18] Executing: "dotnet" build C:\workspace\Web\GiuaKyWeb\GiuaKyWeb.csproj /verbosity:quiet /nologo /p:PublishAot=false, PID: 7192, PPID: 14604
+[2026-06-03 13:49:08.432] [00001C18] IsElevated: False
+[2026-06-03 13:49:08.432] [00001C18] Is64BitProcess: True
+[2026-06-03 13:49:08.432] [00001C18] RebootPending: False
+[2026-06-03 13:49:08.432] [00001C18] ProcessorArchitecture: amd64
+[2026-06-03 13:49:08.432] [00001C18] HostArchitecture: x64
+[2026-06-03 13:49:08.432] [00001C18] SdkDirectory: 10.0.201
+[2026-06-03 13:49:08.432] [00001C18] VerifySignatures: False
+[2026-06-03 13:49:08.432] [00001C18] SDK feature band: 10.0.200
+[2026-06-03 13:49:16.385] [00001C18] Shutting down
+[2026-06-03 13:49:16.385] [00001C18] Shutdown completed.
+[2026-06-03 13:49:16.385] [00001C18] Restart required: False
+[2026-06-03 13:49:16.386] [00001C18] === Logging ended ===

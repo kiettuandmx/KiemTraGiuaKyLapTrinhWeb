@@ -1,0 +1,14 @@
+[2026-06-03 14:26:03.322] [000058FC] === Logging started ===
+[2026-06-03 14:26:03.336] [000058FC] Executing: "C:\Program Files\dotnet\dotnet.exe" test Tests\GiuaKyWeb.Tests\GiuaKyWeb.Tests.csproj --filter Enroll_Post_SetsSuccessMessage_WhenEnrollmentCreated|Cancel_Post_SetsSuccessMessage_WhenEnrollmentRemoved, PID: 22780, PPID: 21036
+[2026-06-03 14:26:03.339] [000058FC] IsElevated: False
+[2026-06-03 14:26:03.339] [000058FC] Is64BitProcess: True
+[2026-06-03 14:26:03.339] [000058FC] RebootPending: False
+[2026-06-03 14:26:03.339] [000058FC] ProcessorArchitecture: amd64
+[2026-06-03 14:26:03.339] [000058FC] HostArchitecture: x64
+[2026-06-03 14:26:03.339] [000058FC] SdkDirectory: 10.0.201
+[2026-06-03 14:26:03.339] [000058FC] VerifySignatures: False
+[2026-06-03 14:26:03.339] [000058FC] SDK feature band: 10.0.200
+[2026-06-03 14:26:19.827] [000058FC] Shutting down
+[2026-06-03 14:26:19.828] [000058FC] Shutdown completed.
+[2026-06-03 14:26:19.828] [000058FC] Restart required: False
+[2026-06-03 14:26:19.829] [000058FC] === Logging ended ===

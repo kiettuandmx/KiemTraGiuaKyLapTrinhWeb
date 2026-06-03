@@ -1,0 +1,13 @@
+@model GiuaKyWeb.Models.ViewModels.CourseFormViewModel
+
+@{
+    ViewData["Title"] = "Sửa học phần";
+}
+
+<h1 class="h3 mb-4">Sửa học phần</h1>
+
+<partial name="_CourseForm" model="Model" />
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

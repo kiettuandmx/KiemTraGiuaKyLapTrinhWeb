@@ -1,0 +1,14 @@
+[2026-06-03 13:42:21.712] [00004664] === Logging started ===
+[2026-06-03 13:42:21.723] [00004664] Executing: "C:\Program Files\dotnet\dotnet.exe" test Tests\GiuaKyWeb.Tests\GiuaKyWeb.Tests.csproj --filter Create_Post_PersistsCourseAndRedirects|Enroll_Post_DoesNotCreateDuplicateEnrollment, PID: 18020, PPID: 19572
+[2026-06-03 13:42:21.727] [00004664] IsElevated: False
+[2026-06-03 13:42:21.727] [00004664] Is64BitProcess: True
+[2026-06-03 13:42:21.727] [00004664] RebootPending: False
+[2026-06-03 13:42:21.727] [00004664] ProcessorArchitecture: amd64
+[2026-06-03 13:42:21.727] [00004664] HostArchitecture: x64
+[2026-06-03 13:42:21.727] [00004664] SdkDirectory: 10.0.201
+[2026-06-03 13:42:21.727] [00004664] VerifySignatures: False
+[2026-06-03 13:42:21.727] [00004664] SDK feature band: 10.0.200
+[2026-06-03 13:42:25.346] [00004664] Shutting down
+[2026-06-03 13:42:25.346] [00004664] Shutdown completed.
+[2026-06-03 13:42:25.346] [00004664] Restart required: False
+[2026-06-03 13:42:25.346] [00004664] === Logging ended ===

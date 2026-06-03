@@ -1,0 +1,15 @@
+@model GiuaKyWeb.Models.Course
+
+@{
+    ViewData["Title"] = "Xóa học phần";
+}
+
+<h1 class="h3 mb-3">Xóa học phần</h1>
+<p>Bạn có chắc muốn xóa <strong>@Model.Name</strong> không?</p>
+
+<form asp-action="Delete" method="post">
+    @Html.AntiForgeryToken()
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Xóa</button>
+    <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+</form>

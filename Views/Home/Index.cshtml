@@ -1,0 +1,86 @@
+﻿@model GiuaKyWeb.Models.ViewModels.CourseListViewModel
+
+@{
+    ViewData["Title"] = "Học phần";
+}
+
+<div class="d-flex flex-column flex-lg-row justify-content-between align-items-lg-center gap-3 mb-4">
+    <div>
+        <h1 class="h2 mb-1">Danh mục học phần</h1>
+        <p class="text-muted mb-0">Xem danh sách học phần và tìm kiếm theo tên học phần.</p>
+    </div>
+
+    <form asp-action="Index" method="get" class="d-flex gap-2">
+        <input
+            type="search"
+            name="searchTerm"
+            value="@Model.SearchTerm"
+            class="form-control"
+            placeholder="Tìm theo tên học phần" />
+        <button type="submit" class="btn btn-primary">Tìm kiếm</button>
+    </form>
+</div>
+
+@if (Model.Courses.Count == 0)
+{
+    <div class="alert alert-info">
+        Không có học phần phù hợp với từ khóa tìm kiếm.
+    </div>
+}
+else
+{
+    <div class="row g-3">
+        @foreach (var course in Model.Courses)
+        {
+            <div class="col-12">
+                <div class="card h-100 shadow-sm">
+                    <div class="row g-0">
+                        <div class="col-md-3">
+                            @if (!string.IsNullOrWhiteSpace(course.Image))
+                            {
+                                <img src="@course.Image" class="img-fluid rounded-start h-100 object-fit-cover" alt="@course.Name" />
+                            }
+                            else
+                            {
+                                <div class="d-flex h-100 align-items-center justify-content-center bg-light text-muted p-4">
+                                    Chưa có ảnh
+                                </div>
+                            }
+                        </div>
+                        <div class="col-md-9">
+                            <div class="card-body">
+                                <div class="d-flex flex-column flex-md-row justify-content-between gap-3">
+                                    <div>
+                                        <h2 class="h5 card-title mb-2">@course.Name</h2>
+                                        <div class="text-muted mb-1">Giảng viên: @course.Lecturer</div>
+                                        <div class="text-muted mb-1">Số tín chỉ: @course.Credits</div>
+                                        <div class="text-muted">Danh mục: @(course.Category?.Name ?? "Chưa phân loại")</div>
+                                    </div>
+                                    @if (User.Identity?.IsAuthenticated == true && User.IsInRole("Student"))
+                                    {
+                                        <form asp-controller="Enrollments" asp-action="Enroll" method="post" class="align-self-start">
+                                            @Html.AntiForgeryToken()
+                                            <input type="hidden" name="courseId" value="@course.Id" />
+                                            <button type="submit" class="btn btn-success">Đăng ký</button>
+                                        </form>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+    <nav aria-label="Phân trang học phần" class="mt-4">
+        <ul class="pagination flex-wrap">
+            @for (var i = 1; i <= Model.TotalPages; i++)
+            {
+                <li class="page-item @(i == Model.CurrentPage ? "active" : null)">
+                    <a class="page-link" asp-action="Index" asp-route-page="@i" asp-route-searchTerm="@Model.SearchTerm">@i</a>
+                </li>
+            }
+        </ul>
+    </nav>
+}

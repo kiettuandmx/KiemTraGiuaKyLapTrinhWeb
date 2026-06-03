@@ -1,0 +1,14 @@
+[2026-06-03 13:35:15.478] [000037A0] === Logging started ===
+[2026-06-03 13:35:15.488] [000037A0] Executing: "C:\Program Files\dotnet\dotnet.exe" test Tests\GiuaKyWeb.Tests\GiuaKyWeb.Tests.csproj --filter Register_Post_AssignsStudentRole|Login_Post_RedirectsToHome_WhenCredentialsAreValid, PID: 14240, PPID: 8620
+[2026-06-03 13:35:15.491] [000037A0] IsElevated: False
+[2026-06-03 13:35:15.491] [000037A0] Is64BitProcess: True
+[2026-06-03 13:35:15.491] [000037A0] RebootPending: False
+[2026-06-03 13:35:15.491] [000037A0] ProcessorArchitecture: amd64
+[2026-06-03 13:35:15.491] [000037A0] HostArchitecture: x64
+[2026-06-03 13:35:15.491] [000037A0] SdkDirectory: 10.0.201
+[2026-06-03 13:35:15.491] [000037A0] VerifySignatures: False
+[2026-06-03 13:35:15.491] [000037A0] SDK feature band: 10.0.200
+[2026-06-03 13:35:25.068] [000037A0] Shutting down
+[2026-06-03 13:35:25.068] [000037A0] Shutdown completed.
+[2026-06-03 13:35:25.068] [000037A0] Restart required: False
+[2026-06-03 13:35:25.069] [000037A0] === Logging ended ===

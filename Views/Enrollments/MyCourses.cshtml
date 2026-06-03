@@ -1,0 +1,37 @@
+@model GiuaKyWeb.Models.ViewModels.MyCoursesViewModel
+
+@{
+    ViewData["Title"] = "Học phần của tôi";
+}
+
+<h1 class="h3 mb-4">Học phần của tôi</h1>
+
+@if (Model.Enrollments.Count == 0)
+{
+    <div class="alert alert-info">Bạn chưa đăng ký học phần nào.</div>
+}
+else
+{
+    <div class="row g-3">
+        @foreach (var enrollment in Model.Enrollments)
+        {
+            <div class="col-12">
+                <div class="card shadow-sm">
+                    <div class="card-body d-flex flex-column flex-md-row justify-content-between gap-3">
+                        <div>
+                            <h2 class="h5 mb-1">@enrollment.Course?.Name</h2>
+                            <div class="text-muted">Giảng viên: @enrollment.Course?.Lecturer</div>
+                            <div class="text-muted">Số tín chỉ: @enrollment.Course?.Credits</div>
+                            <div class="text-muted">Ngày đăng ký: @enrollment.EnrollDate.ToLocalTime().ToString("g")</div>
+                        </div>
+                        <form asp-action="Cancel" method="post" class="align-self-start">
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" name="id" value="@enrollment.Id" />
+                            <button type="submit" class="btn btn-outline-danger">Hủy đăng ký</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}

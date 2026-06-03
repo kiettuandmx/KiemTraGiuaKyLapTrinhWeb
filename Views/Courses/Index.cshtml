@@ -1,0 +1,39 @@
+@model IReadOnlyList<GiuaKyWeb.Models.Course>
+
+@{
+    ViewData["Title"] = "Quản lý học phần";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h1 class="h3 mb-0">Quản lý học phần</h1>
+    <a asp-action="Create" class="btn btn-primary">Thêm học phần</a>
+</div>
+
+<div class="table-responsive">
+    <table class="table table-striped align-middle">
+        <thead>
+            <tr>
+                <th>Tên học phần</th>
+                <th>Số tín chỉ</th>
+                <th>Giảng viên</th>
+                <th>Danh mục</th>
+                <th class="text-end">Thao tác</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var course in Model)
+            {
+                <tr>
+                    <td>@course.Name</td>
+                    <td>@course.Credits</td>
+                    <td>@course.Lecturer</td>
+                    <td>@(course.Category?.Name ?? "Chưa phân loại")</td>
+                    <td class="text-end">
+                        <a asp-action="Edit" asp-route-id="@course.Id" class="btn btn-sm btn-outline-primary">Sửa</a>
+                        <a asp-action="Delete" asp-route-id="@course.Id" class="btn btn-sm btn-outline-danger">Xóa</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

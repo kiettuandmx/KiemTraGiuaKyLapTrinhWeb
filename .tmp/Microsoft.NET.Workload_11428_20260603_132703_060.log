@@ -1,0 +1,17 @@
+[2026-06-03 13:27:03.066] [00002CA4] === Logging started ===
+[2026-06-03 13:27:03.081] [00002CA4] Executing: "C:\Program Files\dotnet\dotnet.exe" test Tests\GiuaKyWeb.Tests\GiuaKyWeb.Tests.csproj --filter OnModelCreating_ConfiguresUniqueEnrollmentIndex, PID: 11428, PPID: 14124
+[2026-06-03 13:27:03.085] [00002CA4] IsElevated: False
+[2026-06-03 13:27:03.085] [00002CA4] Is64BitProcess: True
+[2026-06-03 13:27:03.085] [00002CA4] RebootPending: False
+[2026-06-03 13:27:03.085] [00002CA4] ProcessorArchitecture: amd64
+[2026-06-03 13:27:03.085] [00002CA4] HostArchitecture: x64
+[2026-06-03 13:27:03.085] [00002CA4] SdkDirectory: 10.0.201
+[2026-06-03 13:27:03.085] [00002CA4] VerifySignatures: False
+[2026-06-03 13:27:03.085] [00002CA4] SDK feature band: 10.0.200
+[2026-06-03 13:27:06.200] [00002CA4] ExtractManifestAsync: Extracting 'c:\workspace\Web\GiuaKyWeb\.tmp\zteqjjj5.swf\microsoft.net.workloads.10.0.200.msi.x64\10.204.1\microsoft.net.workloads.10.0.200.msi.x64.10.204.1.nupkg' to 'C:\Users\Admin\.dotnet\sdk-advertising\10.0.200\microsoft.net.workloads'
+[2026-06-03 13:27:06.200] [00002CA4] ExtractManifestAsync: Temporary extraction path: 'c:\workspace\Web\GiuaKyWeb\.tmp\4ntj5uqc.it3'
+[2026-06-03 13:27:06.273] [00002CA4] ExtractManifestAsync: Running admin install for 'c:\workspace\Web\GiuaKyWeb\.tmp\4ntj5uqc.it3\msi'.  Log file: 'c:\workspace\Web\GiuaKyWeb\.tmp\Microsoft.NET.Workload_11428_20260603_132703_060_6d04ff7414ee9b159039c852b47a0121-x64_AdminInstall.log'
+[2026-06-03 13:27:13.993] [00002CA4] Shutting down
+[2026-06-03 13:27:13.993] [00002CA4] Shutdown completed.
+[2026-06-03 13:27:13.993] [00002CA4] Restart required: False
+[2026-06-03 13:27:13.994] [00002CA4] === Logging ended ===

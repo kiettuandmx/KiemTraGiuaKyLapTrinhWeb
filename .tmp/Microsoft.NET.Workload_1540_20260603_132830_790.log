@@ -1,0 +1,14 @@
+[2026-06-03 13:28:30.793] [00000604] === Logging started ===
+[2026-06-03 13:28:30.805] [00000604] Executing: "C:\Program Files\dotnet\dotnet.exe" test Tests\GiuaKyWeb.Tests\GiuaKyWeb.Tests.csproj --filter OnModelCreating_ConfiguresUniqueEnrollmentIndex, PID: 1540, PPID: 21796
+[2026-06-03 13:28:30.808] [00000604] IsElevated: False
+[2026-06-03 13:28:30.808] [00000604] Is64BitProcess: True
+[2026-06-03 13:28:30.808] [00000604] RebootPending: False
+[2026-06-03 13:28:30.809] [00000604] ProcessorArchitecture: amd64
+[2026-06-03 13:28:30.809] [00000604] HostArchitecture: x64
+[2026-06-03 13:28:30.809] [00000604] SdkDirectory: 10.0.201
+[2026-06-03 13:28:30.809] [00000604] VerifySignatures: False
+[2026-06-03 13:28:30.809] [00000604] SDK feature band: 10.0.200
+[2026-06-03 13:28:42.406] [00000604] Shutting down
+[2026-06-03 13:28:42.406] [00000604] Shutdown completed.
+[2026-06-03 13:28:42.406] [00000604] Restart required: False
+[2026-06-03 13:28:42.407] [00000604] === Logging ended ===

@@ -1,0 +1,14 @@
+[2026-06-03 13:51:14.322] [00004774] === Logging started ===
+[2026-06-03 13:51:14.333] [00004774] Executing: "C:\Program Files\dotnet\dotnet.exe" test Tests\GiuaKyWeb.Tests\GiuaKyWeb.Tests.csproj, PID: 18292, PPID: 6412
+[2026-06-03 13:51:14.336] [00004774] IsElevated: False
+[2026-06-03 13:51:14.336] [00004774] Is64BitProcess: True
+[2026-06-03 13:51:14.336] [00004774] RebootPending: False
+[2026-06-03 13:51:14.336] [00004774] ProcessorArchitecture: amd64
+[2026-06-03 13:51:14.336] [00004774] HostArchitecture: x64
+[2026-06-03 13:51:14.336] [00004774] SdkDirectory: 10.0.201
+[2026-06-03 13:51:14.336] [00004774] VerifySignatures: False
+[2026-06-03 13:51:14.336] [00004774] SDK feature band: 10.0.200
+[2026-06-03 13:51:35.053] [00004774] Shutting down
+[2026-06-03 13:51:35.053] [00004774] Shutdown completed.
+[2026-06-03 13:51:35.053] [00004774] Restart required: False
+[2026-06-03 13:51:35.054] [00004774] === Logging ended ===

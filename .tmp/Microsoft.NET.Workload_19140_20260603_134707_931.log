@@ -1,0 +1,14 @@
+[2026-06-03 13:47:07.938] [00004AC4] === Logging started ===
+[2026-06-03 13:47:07.952] [00004AC4] Executing: "C:\Program Files\dotnet\dotnet.exe" test Tests\GiuaKyWeb.Tests\GiuaKyWeb.Tests.csproj --filter SeedCatalogDataAsync_AddsDefaultCategories_WhenEmpty, PID: 19140, PPID: 9416
+[2026-06-03 13:47:07.956] [00004AC4] IsElevated: False
+[2026-06-03 13:47:07.956] [00004AC4] Is64BitProcess: True
+[2026-06-03 13:47:07.956] [00004AC4] RebootPending: False
+[2026-06-03 13:47:07.956] [00004AC4] ProcessorArchitecture: amd64
+[2026-06-03 13:47:07.956] [00004AC4] HostArchitecture: x64
+[2026-06-03 13:47:07.956] [00004AC4] SdkDirectory: 10.0.201
+[2026-06-03 13:47:07.956] [00004AC4] VerifySignatures: False
+[2026-06-03 13:47:07.956] [00004AC4] SDK feature band: 10.0.200
+[2026-06-03 13:47:19.842] [00004AC4] Shutting down
+[2026-06-03 13:47:19.843] [00004AC4] Shutdown completed.
+[2026-06-03 13:47:19.843] [00004AC4] Restart required: False
+[2026-06-03 13:47:19.843] [00004AC4] === Logging ended ===

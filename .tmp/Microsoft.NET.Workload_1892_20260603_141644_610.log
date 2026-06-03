@@ -1,0 +1,14 @@
+[2026-06-03 14:16:44.613] [00000764] === Logging started ===
+[2026-06-03 14:16:44.625] [00000764] Executing: "C:\Program Files\dotnet\dotnet.exe" test Tests\GiuaKyWeb.Tests\GiuaKyWeb.Tests.csproj --filter HomeIndex_HasPublicRoutesForHomeAndCourses|CoursesController_UsesAdminRoutePrefix|EnrollmentsController_UsesEnrollRoutePrefix|ExternalLoginCallback_CreatesStudentUser_WhenGoogleLoginIsFirstTime, PID: 1892, PPID: 23640
+[2026-06-03 14:16:44.627] [00000764] IsElevated: False
+[2026-06-03 14:16:44.627] [00000764] Is64BitProcess: True
+[2026-06-03 14:16:44.627] [00000764] RebootPending: False
+[2026-06-03 14:16:44.627] [00000764] ProcessorArchitecture: amd64
+[2026-06-03 14:16:44.627] [00000764] HostArchitecture: x64
+[2026-06-03 14:16:44.627] [00000764] SdkDirectory: 10.0.201
+[2026-06-03 14:16:44.627] [00000764] VerifySignatures: False
+[2026-06-03 14:16:44.627] [00000764] SDK feature band: 10.0.200
+[2026-06-03 14:16:58.295] [00000764] Shutting down
+[2026-06-03 14:16:58.295] [00000764] Shutdown completed.
+[2026-06-03 14:16:58.295] [00000764] Restart required: False
+[2026-06-03 14:16:58.296] [00000764] === Logging ended ===

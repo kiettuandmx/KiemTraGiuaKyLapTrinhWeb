@@ -1,0 +1,14 @@
+[2026-06-03 14:00:50.549] [00004058] === Logging started ===
+[2026-06-03 14:00:50.565] [00004058] Executing: "C:\Program Files\dotnet\dotnet.exe" test Tests\GiuaKyWeb.Tests\GiuaKyWeb.Tests.csproj --filter SeedCatalogDataAsync_AddsProgrammingCourses_WhenCoursesEmpty, PID: 16472, PPID: 15380
+[2026-06-03 14:00:50.571] [00004058] IsElevated: False
+[2026-06-03 14:00:50.571] [00004058] Is64BitProcess: True
+[2026-06-03 14:00:50.571] [00004058] RebootPending: False
+[2026-06-03 14:00:50.571] [00004058] ProcessorArchitecture: amd64
+[2026-06-03 14:00:50.571] [00004058] HostArchitecture: x64
+[2026-06-03 14:00:50.571] [00004058] SdkDirectory: 10.0.201
+[2026-06-03 14:00:50.571] [00004058] VerifySignatures: False
+[2026-06-03 14:00:50.571] [00004058] SDK feature band: 10.0.200
+[2026-06-03 14:01:08.558] [00004058] Shutting down
+[2026-06-03 14:01:08.558] [00004058] Shutdown completed.
+[2026-06-03 14:01:08.558] [00004058] Restart required: False
+[2026-06-03 14:01:08.559] [00004058] === Logging ended ===
